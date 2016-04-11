@@ -12,6 +12,8 @@
 		CB8B24501940B33900F18015 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B244F1940B33900F18015 /* ViewController.m */; };
 		CB8B24531940B33900F18015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8B24511940B33900F18015 /* Main.storyboard */; };
 		CB8B24551940B33900F18015 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8B24541940B33900F18015 /* Images.xcassets */; };
+		FA12AA991CB3C87D004BD50D /* wall-e@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA12AA981CB3C87D004BD50D /* wall-e@2x.png */; };
+		FA5654E01CB3EC13002BAA30 /* UIImage+DrawToCenterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5654DF1CB3EC13002BAA30 /* UIImage+DrawToCenterImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		CB8B244F1940B33900F18015 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB8B24521940B33900F18015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8B24541940B33900F18015 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA12AA981CB3C87D004BD50D /* wall-e@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wall-e@2x.png"; sourceTree = "<group>"; };
+		FA5654DE1CB3EC13002BAA30 /* UIImage+DrawToCenterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DrawToCenterImage.h"; sourceTree = "<group>"; };
+		FA5654DF1CB3EC13002BAA30 /* UIImage+DrawToCenterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DrawToCenterImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 		CB8B24461940B33900F18015 /* Demo-CustomQRCore */ = {
 			isa = PBXGroup;
 			children = (
+				FA12AA981CB3C87D004BD50D /* wall-e@2x.png */,
 				CB8B244B1940B33900F18015 /* AppDelegate.h */,
 				CB8B244C1940B33900F18015 /* AppDelegate.m */,
 				CB8B244E1940B33900F18015 /* ViewController.h */,
@@ -63,6 +69,8 @@
 				CB8B24511940B33900F18015 /* Main.storyboard */,
 				CB8B24541940B33900F18015 /* Images.xcassets */,
 				CB8B24471940B33900F18015 /* Supporting Files */,
+				FA5654DE1CB3EC13002BAA30 /* UIImage+DrawToCenterImage.h */,
+				FA5654DF1CB3EC13002BAA30 /* UIImage+DrawToCenterImage.m */,
 			);
 			path = "Demo-CustomQRCore";
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8B24531940B33900F18015 /* Main.storyboard in Resources */,
+				FA12AA991CB3C87D004BD50D /* wall-e@2x.png in Resources */,
 				CB8B24551940B33900F18015 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +157,7 @@
 				CB8B24501940B33900F18015 /* ViewController.m in Sources */,
 				CB8B244D1940B33900F18015 /* AppDelegate.m in Sources */,
 				CB8B244A1940B33900F18015 /* main.m in Sources */,
+				FA5654E01CB3EC13002BAA30 /* UIImage+DrawToCenterImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
